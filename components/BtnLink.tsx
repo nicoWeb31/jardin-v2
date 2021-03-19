@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-const BtnNav = () => {
+const BtnNav : React.FC = () => {
     const [toggle, setToggle] = useState(false);
 
     const toggleButton = () => {
         setToggle(!toggle);
     };
+
+    // useEffect(()=>{
+
+    // },[toggleButton])
 
     return (
         <div>
@@ -17,6 +21,8 @@ const BtnNav = () => {
                     id="navi-toggle"
                     checked={toggle}
                     onClick={toggleButton}
+                    // onChange={e=>setToggle(!toggle)}
+
                 />
                 <label htmlFor="navi-toggle" className="navigation__button">
                     <span className="navigation__icon" aria-hidden="true">
