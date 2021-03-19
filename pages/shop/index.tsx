@@ -25,11 +25,17 @@ const shop: React.FC = () => {
                 </div>
 
                 <div className="presentation">
-                    <h4>Les Plans :</h4>
+                    <h4>Les Plants :</h4>
                     <div className="shopCard">
                         <p>
                             La liste des plants en précommandes est
-                            téléchargeable ici.
+                            téléchargeable
+                            <a
+                                href="/pdf/liste-plan-vente.pdf"
+                                download="pdf-vente-plants"
+                            >
+                                <span>  ici</span>.
+                            </a>
                         </p>
                         <img src="/images/semis.jpg" alt="semis" />
                     </div>

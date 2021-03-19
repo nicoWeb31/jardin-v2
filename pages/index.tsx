@@ -16,7 +16,7 @@ export default function Home() {
                         your Browser is not supported !
                     </video>
                 </div>
-                <TitreSecondary>Bienvenue !</TitreSecondary>
+                <TitreSecondary>Bienvenue </TitreSecondary>
 
                 <div className="rowGrid">
                     <div className="presentation asso">
@@ -27,12 +27,12 @@ export default function Home() {
                             <p>
                                 Bienvenue dans notre jardin-potager. Ici vous
                                 trouverez de bons produits frais et locaux.
-                                Notre système de production est directement
+                                Nous avons fait le choix d'un système de culture directement
                                 inspiré des principes de la permaculture et de
-                                l’agriculture bio-intensive c’est-à-dire dans le
+                                l’agriculture bio-intensive, c’est-à-dire dans le
                                 respect de la nature et de la biodiversité.
                                 N’hésitez plus à visiter notre site pour faire
-                                plus ample connaissance et découvrez nos
+                                plus amples connaissances et découvrez nos
                                 produits mais aussi nos jardiniers !
                             </p>
                         </div>

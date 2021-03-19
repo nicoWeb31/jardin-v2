@@ -9,7 +9,7 @@ const contact: React.FC = () => {
 
             <div className="presentation">
                 <p>
-                    - Vous pouvez nous contacter a l'adress mail suivante :
+                    - Vous pouvez nous contacter à l'adresse mail suivante :
                     jardindelajoualle@gmail.com
                 </p>
                 <p>- Ou au numéro suivant : 06.60.20.72.70</p>

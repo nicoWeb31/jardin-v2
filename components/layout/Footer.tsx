@@ -38,7 +38,7 @@ const Footer = () => {
                     <div className="footer__contact">
                         <div className="footer__contact--adress info-block">
                             <i className="fa fa-map-marker footer__icone"></i>
-                            <p>Impasse Larribeau</p>
+                            <p>Impasse Larribeau --</p>
                             <p>31260 Montespan</p>
                         </div>
                         <div className="footer__contact--phone info-block">
@@ -48,9 +48,9 @@ const Footer = () => {
                         <div className="footer__contact--mail info-block">
                             <i className="fa fa-envelope footer__icone "></i>
                             <p>
-                                <Link href="mailto:nico.riot@free.fr">
+                                <Link href="mailto:jardindelajoualle@gmail.com">
                                     <a className="footer__link">
-                                    jardindelejoualle@gmail.com
+                                    jardindelajoualle@gmail.com
 
                                     </a>
                                 </Link>
@@ -79,7 +79,7 @@ const Footer = () => {
                     <p className="footer__copyright">
                         N'hésitez pas à nous{" "}
                         <Link href="/contact">
-                            <a>contacter.</a>
+                            <a className="footer__link">contacter.</a>
                         </Link>
                     </p>
                     <p className="text-center cp__nico">

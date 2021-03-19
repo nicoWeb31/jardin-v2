@@ -46,7 +46,7 @@ const BtnNav : React.FC = () => {
                         >
                             <Link href="/about">
                                 <a className="navigation__link">
-                                    Qui somme nous?
+                                    Qui sommes-nous ?
                                 </a>
                             </Link>
                         </li>
