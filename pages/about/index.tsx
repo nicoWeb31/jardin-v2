@@ -1,13 +1,16 @@
 import React from "react";
+import { CardList } from "../../components/CardPermapotes/CardList";
 import TitreSecondary from "../../components/Titre";
+import { permapotes } from "../../data/dataPermapote";
 
 const about: React.FC = () => {
+    const permas = permapotes;
     return (
         <>
-            <main className="__about-content">
+            <main className="container-page">
                 <TitreSecondary>Qui Somme nous ?</TitreSecondary>
 
-                <div className="presentation asso">
+                <div className="presentation">
                     <div className="presentation__text">
                         {/* <h3 className="heading-tertiary u-margin-bottom-small">
                                 Bienvenue !
@@ -42,6 +45,10 @@ const about: React.FC = () => {
                             potager, le meilleur de nous ! A bientôt !
                         </p>
                     </div>
+                </div>
+                <div className="presentation">
+
+                    <CardList cardList={permas}/>
                 </div>
             </main>
         </>

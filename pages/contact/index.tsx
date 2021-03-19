@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import TitreSecondary from "../../components/Titre";
 
 const contact: React.FC = () => {
     return (
-        <div>
-            contact
-        </div>
-    )
-}
+        <>
+        <main className="container-page">
+            <TitreSecondary>Contact</TitreSecondary>
 
-export default contact
+            <div className="presentation">
+                <p>
+                    - Vous pouvez nous contacter a l'adress mail suivante :
+                    jardindelajoualle@gmail.com
+                </p>
+                <p>- Ou au numéro suivant : 06.60.20.72.70</p>
+            </div>
+        </main>
+        </>
+    );
+};
+
+export default contact;

@@ -6,7 +6,10 @@
 @import "./footer.scss";
 @import "./titreSecondary.scss";
 @import "./homePage.scss";
-@import "./aboutPage.scss";
+@import "./pages/aboutPage.scss";
+@import "./componentStyle/cardStyle.scss";
+@import "./componentStyle/cardlist.scss";
+@import "./pages/shopPage.scss";
 
 *,
 *::after,
@@ -45,6 +48,11 @@ body {
     line-height: 1.7;
     color: $c-b;
     box-sizing: border-box;
+}
+
+.container-page{
+    margin-top: -30rem;
+    text-align: justify;
 }
 
 
