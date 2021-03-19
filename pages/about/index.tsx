@@ -21,7 +21,7 @@ const about: React.FC = () => {
                             depuis de nombreuses années.
                         </p>
                         <p>
-                            Chacun de son côté ayant pris conscient du
+                            Chacun de son côté ayant pris conscience du
                             bien-fondé de la nourriture saine, bio et
                             respectueuse de la nature, et tous adhérents de la
                             pensée et de l’art de vivre en lien avec la
