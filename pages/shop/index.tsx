@@ -22,36 +22,41 @@ const shop: React.FC = () => {
                         réflexions afin de préserver la fertilité du sol et de
                         vous offrir le meilleur chaque saison.
                     </p>
-
                 </div>
 
                 <div className="presentation">
                     <h4>Les Plans :</h4>
-                    <p>
-                        La liste des plants en précommandes est téléchargeable
-                        ici.
-                    </p>
-                    <img src="/images/semis.jpg" alt="semis"/>
+                    <div className="shopCard">
+                        <p>
+                            La liste des plants en précommandes est
+                            téléchargeable ici.
+                        </p>
+                        <img src="/images/semis.jpg" alt="semis" />
+                    </div>
                 </div>
 
                 <div className="presentation">
                     <h4>Les paniers :</h4>
-                    <p>
-                        Désolé la saison 2021 des
-                        paniers est déjà complète ! Rdv début 2022 pour
-                        effectuer vos réservations (et promis nous augmenterons
-                        le nombre de nos paniers disponibles ! )
-                    </p>
-                    <img src="/images/panier.jpg" alt="panier"/>
+                    <div className="shopCard">
+                        <p>
+                            Désolé la saison 2021 des paniers est déjà complète
+                            ! Rdv début 2022 pour effectuer vos réservations (et
+                            promis nous augmenterons le nombre de nos paniers
+                            disponibles ! )
+                        </p>
+                        <img src="/images/panier.jpg" alt="panier" />
+                    </div>
                 </div>
 
                 <div className="presentation">
                     <h4>Les surplus :</h4>
-                    <p>
-                        En fonction des récoltes,
-                        retrouvez ici les produits disponibles chaque lundi.
-                    </p>
-                    <img src="images/surplus.jpg" alt="surplus"/>
+                    <div className="shopCard">
+                        <p>
+                            En fonction des récoltes, retrouvez ici les produits
+                            disponibles chaque lundi.
+                        </p>
+                        <img src="images/surplus.jpg" alt="surplus" />
+                    </div>
                 </div>
             </main>
         </>
