@@ -1,7 +1,15 @@
+@import "../mixin";
+
+
+
 .shopPage{
     img{
         padding: 5rem;
         width: 600px;
+        @include respond(phone) {
+            width: 100px;// <1200
+            padding: 2rem;
+        }
     }
 
     .shopCard{
