@@ -1,0 +1,17 @@
+@import "./variable";
+
+.heading-secondary {
+    padding-bottom: 8rem;
+    padding-top: 30rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $c-p, $c-b);
+
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.2s;
+    letter-spacing: 1.5px;
+
+    text-align: center;
+}
