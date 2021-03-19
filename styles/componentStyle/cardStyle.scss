@@ -1,7 +1,10 @@
 @import "../variable.scss";
+@import "../mixin";
 
 .__card-content {
-    display: flex;
+
+    background-color: $c-s;
+    
     .card {
         background-color: $c-w;
         border-radius: 2px;

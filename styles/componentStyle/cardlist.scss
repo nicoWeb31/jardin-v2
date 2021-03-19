@@ -1,3 +1,14 @@
-.__card-list{
-display: flex;
+.__card-list {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: $c-s;
+
+    @include respond(phone) {
+        flex-direction: column;
+    }
 }

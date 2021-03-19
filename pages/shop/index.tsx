@@ -18,7 +18,7 @@ const shop: React.FC = () => {
                         cycle naturel, nous suivons le rythme des saisons avec
                         leurs avantages et leurs inconvénients, nous abordons le
                         potager avec le plus grand respect de la biodiversité et
-                        la culture sur sol vivant est l’axe principale de nos
+                        la culture sur sol vivant est l’axe principal de nos
                         réflexions afin de préserver la fertilité du sol et de
                         vous offrir le meilleur chaque saison.
                     </p>
