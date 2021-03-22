@@ -1,9 +1,9 @@
-@import "../variable.scss";
-@import "../mixin";
+@import "../../../styles/variable";
+@import "../../../styles/mixin";
 
 .__cardContent {
 
-    background-color: $c-s;
+    // background-color: $c-s;
     
     .card {
         background-color: $c-w;
@@ -20,6 +20,12 @@
 
     .cardDetails {
         padding: 5px 15px;
+    }
+    
+    .cardHead {
+        font-weight: 400;
+        font-size: 26px;
+        margin-bottom: 15px;
     }
 
 }

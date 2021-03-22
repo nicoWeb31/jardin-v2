@@ -1,12 +1,16 @@
-.__card-list {
+@import "../../../styles/variable";
+@import "../../../styles/mixin";
+
+.__cardList {
     display: flex;
     flex-direction: row;
     display: flex;
     flex-direction: row;
+    // border: 1px solid black;
     // flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    background-color: $c-s;
+    // background-color: $c-s;
 
     @include respond(phone) {
         flex-direction: column;

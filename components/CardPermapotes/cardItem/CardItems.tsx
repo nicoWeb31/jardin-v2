@@ -13,7 +13,7 @@ const CardItems: React.FC<CardItemsProps> = ({ pote }) => {
             <div className={style.card}>
             <img src={pote.image} className={style.cardMedia} />
             <div className={style.cardDetails}>
-                <h2 className="card-head">{pote.name}</h2>
+                <h2 className={style.cardHeade}>{pote.name}</h2>
                 <p>{pote.description}</p>
             </div>
 
