@@ -2,6 +2,7 @@ import React from "react";
 import { CardList } from "../../components/CardPermapotes/cardList/CardList";
 import TitreSecondary from "../../components/Titre";
 import { permapotes } from "../../data/dataPermapote";
+import style from './aboutPage.module.scss'
 
 const about: React.FC = () => {
     const permas = permapotes;
