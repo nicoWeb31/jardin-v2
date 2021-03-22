@@ -84,7 +84,7 @@ const Footer = () => {
                         </Link>
                     </p>
                     <p className={style.cp__nico}>
-                        Copyright &copy; by Riot Nicolas 2020.
+                        Copyright &copy; by Riot Nicolas 2021.
                     </p>
                 </div>
             </div>

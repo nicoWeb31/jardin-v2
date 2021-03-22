@@ -1,18 +1,19 @@
 import React from "react";
+import style from './header.module.scss';
 
 
 
 
 const Header: React.FC = () => {
     return (
-        <header className="header ">
-            <div className="header__logo-box">
+        <header className={style.header}>
+            <div className={style.header__logoBox}>
 
                     <i className="fas fa-home fa-3x header__logo"></i>
             </div>
-            <div className="text-box">
-                <h1 className="heading-primary">
-                    <span className="heading-primary--main">Jardin de la joualle</span>
+            <div className={style.textBox}>
+                <h1 className={style.headingPrimary}>
+                    <span className={style.headingPrimaryMain}>Jardin de la joualle</span>
                     {/* <span className="heading-primary--secondary">
                         Pour 
                     </span> */}

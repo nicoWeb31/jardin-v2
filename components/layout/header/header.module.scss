@@ -1,4 +1,4 @@
-@import "./variable";
+@import "../../../styles/variable";
 
 
 .header {
@@ -23,22 +23,22 @@
         color: $c-w;
     }
 
-    &__logo-box {
+    &__logoBox {
         position: absolute;
         top: 5rem;
         left: 5rem;
     }
 
-    .heading-primary {
+    .headingPrimary {
         color: $c-w;
         text-transform: uppercase;
         /* bug de tranblement */
         backface-visibility: hidden;
 
-        &--main {
+        &Main {
             display: block;
             font-size: 3.5rem;
-            font-weight: 400;
+            font-weight: 600;
             letter-spacing: 2.3rem;
             margin-bottom: 2.5rem;
             text-align: center;
@@ -67,7 +67,7 @@
 
 
 
-.text-box {
+.textBox {
     position: absolute;
     left: 50%;
     top: 40%;
