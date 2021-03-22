@@ -1,5 +1,5 @@
-@import "./variable";
-@import "./mixin";
+@import "../../../styles/variable";
+@import "../../../styles/mixin";
 
 .footer {
     background-color: $c-b;
@@ -7,7 +7,7 @@
     font-size: 1.6rem;
     color: $c-w;
 
-    &__logo-box {
+    &__logoBox {
         text-align: center;
     }
 
@@ -31,7 +31,7 @@
     &__contact {
         display: flex;
         flex-direction: column;
-        &--adress,
+        &Adress,
         &--phone,
         &--mail {
             display: flex;
@@ -113,7 +113,7 @@
     }
 }
 
-.info-block{
+.infoBlock{
     @include flexCenter(row);
 
 }
