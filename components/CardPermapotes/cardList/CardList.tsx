@@ -1,6 +1,6 @@
 import React from "react";
-import { Permapotes } from "../../interface/interface";
-import CardItems from "./CardItems";
+import { Permapotes } from "../../../interface/interface";
+import CardItems from "../cardItem/CardItems";
 
 interface CardListProps {
     cardList: Permapotes[];

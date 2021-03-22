@@ -1,0 +1,25 @@
+@import "../variable.scss";
+@import "../mixin";
+
+.__cardContent {
+
+    background-color: $c-s;
+    
+    .card {
+        background-color: $c-w;
+        border-radius: 2px;
+        box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25),
+            1px 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 1rem 0.5rem;
+        max-width: 340px;
+    }
+
+    .cardMedia {
+        width: 100%;
+    }
+
+    .cardDetails {
+        padding: 5px 15px;
+    }
+
+}

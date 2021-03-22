@@ -1,5 +1,5 @@
 import React from "react";
-import BtnPrimary from "../Btn/BtnPrimary";
+import BtnPrimary from "../Btn/btnPrimary/BtnPrimary";
 
 
 
