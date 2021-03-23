@@ -2,8 +2,10 @@
 
 
 .header {
+
+    border-bottom: 4px solid $c-t;
     z-index: 10;
-    height: 85vh;
+    height: 75vh;
     background-image: linear-gradient(
             96deg,
             rgba($c-p, 0.4) 0%,
