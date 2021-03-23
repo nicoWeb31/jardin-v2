@@ -8,6 +8,8 @@ const Header: React.FC = () => {
     return (
         <header className={style.header}>
             <div className={style.header__logoBox}>
+            <img src='/images/logo.png' alt="logo" className={style.logoImg}/>
+
 
                     <i className="fas fa-home fa-3x header__logo"></i>
             </div>

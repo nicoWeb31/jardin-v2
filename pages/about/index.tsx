@@ -2,7 +2,7 @@ import React from "react";
 import { CardList } from "../../components/CardPermapotes/cardList/CardList";
 import TitreSecondary from "../../components/titre/Titre";
 import { permapotes } from "../../data/dataPermapote";
-import style from './aboutPage.module.scss'
+import style from "./aboutPage.module.scss";
 
 const about: React.FC = () => {
     const permas = permapotes;
@@ -11,6 +11,11 @@ const about: React.FC = () => {
             <main className="container-page">
                 <TitreSecondary>Qui sommes-nous ?</TitreSecondary>
 
+                <img
+                    src="/images/logo.png"
+                    alt="logo"
+                    className={style.logoImg}
+                />
                 <div className="modale">
                     <div className="presentation__text">
                         {/* <h3 className="heading-tertiary u-margin-bottom-small">
@@ -51,9 +56,9 @@ const about: React.FC = () => {
                             échelle pour commencer, avec nos premiers paniers
                             hebdomadaires ainsi que la vente de plants de
                             légumes en précommande. Nous donnerons le meilleur
-                            de notre potager, le meilleur de nous !</p>
-                            <p>A bientôt !
+                            de notre potager, le meilleur de nous !
                         </p>
+                        <p>A bientôt !</p>
                     </div>
                 </div>
                 <div className="modale">
