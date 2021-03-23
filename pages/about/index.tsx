@@ -1,6 +1,6 @@
 import React from "react";
 import { CardList } from "../../components/CardPermapotes/cardList/CardList";
-import TitreSecondary from "../../components/Titre";
+import TitreSecondary from "../../components/titre/Titre";
 import { permapotes } from "../../data/dataPermapote";
 import style from './aboutPage.module.scss'
 

@@ -1,5 +1,5 @@
 import React from "react";
-import TitreSecondary from "../../components/Titre";
+import TitreSecondary from "../../components/titre/Titre";
 import style from "./shopPage.module.scss";
 
 const shop: React.FC = () => {

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import TitreSecondary from "../components/Titre";
+import TitreSecondary from "../components/titre/Titre";
 import style from './homePage.module.scss';
 
 export default function Home() {
