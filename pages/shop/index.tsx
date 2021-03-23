@@ -1,13 +1,14 @@
 import React from "react";
 import TitreSecondary from "../../components/Titre";
+import style from "./shopPage.module.scss";
 
 const shop: React.FC = () => {
     return (
         <>
-            <main className="container-page shopPage">
+            <main className={`container-page ${style.shopPage}`}>
                 <TitreSecondary>Le marché</TitreSecondary>
 
-                <div className="presentation">
+                <div className="modale">
                     <h4>
                         Découvrez ici tous les produits que nous proposons à la
                         vente !{" "}
@@ -24,9 +25,9 @@ const shop: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="presentation">
+                <div className="modale">
                     <h4>Les Plants :</h4>
-                    <div className="shopCard">
+                    <div className={style.shopCard}>
                         <p>
                             La liste des plants en précommandes est
                             téléchargeable
@@ -34,16 +35,16 @@ const shop: React.FC = () => {
                                 href="/pdf/liste-plan-vente.pdf"
                                 download="pdf-vente-plants"
                             >
-                                <span>  ici</span>.
+                                <span> ici</span>.
                             </a>
                         </p>
                         <img src="/images/semis.jpg" alt="semis" />
                     </div>
                 </div>
 
-                <div className="presentation">
+                <div className="modale">
                     <h4>Les paniers :</h4>
-                    <div className="shopCard">
+                    <div className={style.shopCard}>
                         <p>
                             Désolé la saison 2021 des paniers est déjà complète
                             ! Rdv début 2022 pour effectuer vos réservations (et
@@ -54,9 +55,9 @@ const shop: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="presentation">
+                <div className="modale">
                     <h4>Les surplus :</h4>
-                    <div className="shopCard">
+                    <div className={style.shopCard}>
                         <p>
                             En fonction des récoltes, retrouvez ici les produits
                             disponibles chaque lundi.

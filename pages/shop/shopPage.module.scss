@@ -1,13 +1,13 @@
-@import "../mixin";
+@import "../../styles/mixin";
 
 
 
 .shopPage{
     img{
         padding: 5rem;
-        width: 600px;
+        width: 50%;
         @include respond(phone) {
-            width: 200px;// <1200
+            width: 30%;// <1200
             padding: 2rem;
         }
     }

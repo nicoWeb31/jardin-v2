@@ -3,7 +3,6 @@
 @import "./btnNav.scss";
 @import "./titreSecondary.scss";
 @import "./homePage.scss";
-@import "./pages/shopPage.scss";
 
 *,
 *::after,
@@ -16,14 +15,14 @@
 /* 16px by default,  declaration puis on joue avec les rems ex.... */
 html {
     /* font-size: 10px; */
-    font-size: 62.5%;//normal
+    font-size: 62.5%; //normal
 
     @include respond(tab-land) {
-        font-size: 56.25%;// <1200
+        font-size: 56.25%; // <1200
     }
 
     @include respond(tab-port) {
-        font-size: 50%;//<900
+        font-size: 50%; //<900
     }
     // @include respond(phone) {
     //     font-size: 50%; //<600
@@ -34,7 +33,6 @@ html {
 }
 
 body {
-
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     /* font-size:16 px; */
@@ -44,11 +42,10 @@ body {
     box-sizing: border-box;
 }
 
-.container-page{
+.container-page {
     margin-top: -30rem;
     text-align: justify;
 }
-
 
 //formulaire
 .form {
@@ -88,7 +85,7 @@ body {
         transform: translateY(-4rem);
     }
 
-    .loginBtn{
+    .loginBtn {
         padding-top: 2rem;
 
         height: 3rem;
@@ -116,4 +113,16 @@ body {
     padding-top: 0.5rem;
     font-size: 1.3rem;
     color: rgb(133, 45, 45);
+}
+
+.modale {
+    width: 75%;
+    margin: 3rem auto;
+    text-align: justify;
+    background-color: rgba($c-w, 0.5);
+    box-shadow: 0 3rem 6rem rgba($c-b, 0.3);
+    border-radius: 3px;
+    font-size: $default-font-size;
+    padding: 9rem;
+    transform: skewX(-4deg);
 }

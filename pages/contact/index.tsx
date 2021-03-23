@@ -1,10 +1,11 @@
 import React from "react";
 import TitreSecondary from "../../components/Titre";
+import style from './contact.module.scss';
 
 const contact: React.FC = () => {
     return (
         <>
-        <main className="container-page">
+        <main className={style.__contactContainer}>
             <TitreSecondary>Contact</TitreSecondary>
 
             <div className="presentation">
