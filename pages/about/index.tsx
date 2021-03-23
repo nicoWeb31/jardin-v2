@@ -11,7 +11,7 @@ const about: React.FC = () => {
             <main className="container-page">
                 <TitreSecondary>Qui sommes-nous ?</TitreSecondary>
 
-                <div className="presentation">
+                <div className="modale">
                     <div className="presentation__text">
                         {/* <h3 className="heading-tertiary u-margin-bottom-small">
                                 Bienvenue !
@@ -56,7 +56,7 @@ const about: React.FC = () => {
                         </p>
                     </div>
                 </div>
-                <div className="presentation">
+                <div className="modale">
                     <CardList cardList={permas} />
                 </div>
             </main>

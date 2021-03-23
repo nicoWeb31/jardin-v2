@@ -8,7 +8,7 @@ const contact: React.FC = () => {
         <main className={style.__contactContainer}>
             <TitreSecondary>Contact</TitreSecondary>
 
-            <div className="presentation">
+            <div className="modale">
                 <p>
                     - Vous pouvez nous contacter à l'adresse mail suivante :
                     jardindelajoualle@gmail.com

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import TitreSecondary from "../components/Titre";
+import style from './homePage.module.scss';
 
 export default function Home() {
     return (
@@ -9,17 +10,17 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="homePageContent ">
-                <div className="bg-video">
-                    <video className="bg-video__content" autoPlay muted loop>
+            <main className={style.homePageContent}>
+                <div className={style.bgVideo}>
+                    <video className={style.bgVideoCont} autoPlay muted loop>
                         <source src="/videos/home.mp4" type="video/mp4" />
                         your Browser is not supported !
                     </video>
                 </div>
                 <TitreSecondary>Bienvenue </TitreSecondary>
 
-                <div className="rowGrid">
-                    <div className="presentation asso">
+                <div className="">
+                    <div className="modale asso">
                         <div className="presentation__text">
                             {/* <h3 className="heading-tertiary u-margin-bottom-small">
                                 Bienvenue !

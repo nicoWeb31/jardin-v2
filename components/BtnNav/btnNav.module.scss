@@ -1,13 +1,13 @@
-@import "./variable";
+@import "../../styles/variable.scss";
 
 .navigation {
 
     
-    &__checkbox {
+    &Checkbox {
         display: none;
     }
 
-    &__button {
+    &Btn {
         background-color: $c-w;
         height: 7rem;
         width: 7rem;
@@ -21,7 +21,7 @@
         cursor: pointer;
     }
 
-    &__background {
+    &Background {
         height: 6rem;
         width: 6rem;
         border-radius: 50%;
@@ -33,7 +33,7 @@
         transition: transform 0.5s cubic-bezier(0.83, 0, 0.17, 1);
     }
 
-    &__nav {
+    &Navig {
         height: 100vh;
         // width: 100%;
         position: fixed;
@@ -46,7 +46,7 @@
         transition: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     }
 
-    &__list {
+    &List {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -56,11 +56,11 @@
         width: 100%;
     }
 
-    &__item {
+    &Item {
         margin: 1rem;
     }
 
-    &__link {
+    &Lk {
 
 
         &:link,
@@ -91,7 +91,7 @@
         }
     }
 
-    &__icon {
+    &Icon {
         position: relative;
         margin-top: 3.5rem;
 
@@ -120,34 +120,34 @@
         }
     }
 
-    &__checkbox:checked ~ &__background {
+    &Checkbox:checked ~ &Background {
         transform: scale(80);
     }
 
-    &__checkbox:checked ~ &__nav {
+    &Checkbox:checked ~ &Navig {
         opacity: 1;
         width: 100%;
     }
 
-    &__button:hover &__icon::before {
+    &Btn:hover &Icon::before {
         top:-1rem;
     }
 
-    &__button:hover &__icon::after {
+    &Btn:hover &Icon::after {
         top:1rem;
     }
 
-    &__checkbox:checked + &__button &__icon {
+    &Checkbox:checked + &Btn &Icon {
         background-color: transparent;
     }
     
-    &__checkbox:checked + &__button &__icon::before {
+    &Checkbox:checked + &Btn &Icon::before {
         top: 0;
         transform: rotate(45deg)
 
     }
 
-    &__checkbox:checked + &__button &__icon::after {
+    &Checkbox:checked + &Btn &Icon::after {
         top: 0;
         transform: rotate(-45deg)
         
@@ -156,7 +156,7 @@
 
 
 @media screen and (max-width: 680px) {
-    .navigation__link{
+    .navigationLink{
         &:link,
         &visited {
             font-size: 2rem;
@@ -166,12 +166,12 @@
 
     .navigation{
 
-        &__button{
+        &Btn{
             top: 3rem;
             right: 3rem;
         }
 
-        &__background{
+        &Background{
             top: 3.5rem;
             right: 3.5rem;
         }
