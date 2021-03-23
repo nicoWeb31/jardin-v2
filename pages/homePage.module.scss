@@ -1,17 +1,19 @@
-@import '../styles/variable';
+@import "../styles/variable";
 
-.homePageContent{
-    
-    margin-top: -30rem;
+.homePageContent {
+    margin-top: -23rem;
     // background-color: rgb(72, 153, 190);
+    
+
+    .contentPres {
+        padding-top: 20rem;
+    }
 }
 
-
 .bgVideo {
-
-    padding-top: -30rem;
+    // padding-top: -30rem;
     position: absolute;
-    top: 100;
+    // top: 300;
     left: 0;
     height: 100%;
     width: 100%;
@@ -20,10 +22,8 @@
     overflow: hidden;
 
     &Cont {
-        height: 100%;
+        height: 150%;
         width: 100%;
         object-fit: cover;
     }
 }
-
-

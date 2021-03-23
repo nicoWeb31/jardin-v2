@@ -4,7 +4,7 @@ import style from './homePage.module.scss';
 
 export default function Home() {
     return (
-        <div className="__container">
+        <div className= {`${style.homePageContent}`}>
             <Head>
                 <title>Jardin de la joualle</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -19,7 +19,7 @@ export default function Home() {
                 </div>
                 <TitreSecondary>Bienvenue </TitreSecondary>
 
-                <div className="">
+                <div className={style.contentPres}>
                     <div className="modale asso">
                         <div className="presentation__text">
                             {/* <h3 className="heading-tertiary u-margin-bottom-small">

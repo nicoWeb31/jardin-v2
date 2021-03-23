@@ -8,6 +8,8 @@ const shop: React.FC = () => {
             <main className={`container-page ${style.shopPage}`}>
                 <TitreSecondary>Le marché</TitreSecondary>
 
+                <img src='/images/logo.png' alt="logo" className={style.logoImg}/>
+
                 <div className="modale">
                     <h4>
                         Découvrez ici tous les produits que nous proposons à la

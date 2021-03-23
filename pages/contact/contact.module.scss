@@ -1,3 +1,18 @@
+@import "../../styles/variable.scss";
+
 .__contactContainer{
     margin-top: -30rem;
+    height: 100vh;
+    position: relative;
+
+    .logoImg{
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%);
+        margin: auto 0;
+        position: absolute;
+        height: 100vh;
+        opacity: 0.1;
+    }
+
 }

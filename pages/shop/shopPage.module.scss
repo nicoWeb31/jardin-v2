@@ -12,6 +12,19 @@
         }
     }
 
+    .logoImg{
+        width: 100%;
+        left: 50%;
+        top: 120%;
+        transform: translate(-50%);
+
+        margin: auto 0;
+        position: absolute;
+        display: inline-block;
+
+        opacity: 0.1;
+    }
+
     .shopCard{
         display: flex;
         justify-content: space-evenly;

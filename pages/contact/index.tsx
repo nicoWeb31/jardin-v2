@@ -6,6 +6,7 @@ const contact: React.FC = () => {
     return (
         <>
         <main className={style.__contactContainer}>
+            <img src='/images/logo.png' alt="logo" className={style.logoImg}/>
             <TitreSecondary>Contact</TitreSecondary>
 
             <div className="modale">
