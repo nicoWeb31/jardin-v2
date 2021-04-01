@@ -1,14 +1,15 @@
-@import "../../variable";
+@import "../../styles/variable";
 
 .homeBanniere {
-    background-image: linear-gradient(to right, $c-primary, $c-tertiary);
+    background-image: linear-gradient(to right, $c-p, $c-t);
     padding: 2rem;
     
 
-    &__heading {
-        color: $c-white;
+    .__heading {
+        color: $c-w;
         font-size: 3rem;
         margin: 2rem;
+
 
         font-weight: 400;
         letter-spacing: .8rem;
@@ -17,6 +18,10 @@
         align-self: start;
         vertical-align: baseline;
 
-        text-shadow: 0.4rem 0.3rem 0 $c-black;
+        text-shadow: 0.4rem 0.3rem 0 $c-b;
     }
+}
+
+.centerDiv{
+    align-items: center;
 }

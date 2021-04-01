@@ -1,0 +1,19 @@
+@import "../../../styles/variable";
+
+.inspiContent{
+    display: flex;
+    justify-content: space-evenly;
+
+    h3{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .permaculture{
+        // border: 1px solid black;
+        width: 50%;
+        padding: 5rem;
+        margin:5rem;
+        // background-color:$c-t;
+    }
+}

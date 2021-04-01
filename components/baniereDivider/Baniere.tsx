@@ -7,11 +7,11 @@ interface BaniereProps {
     
 }
 
-const BaniereContact:React.FC<BaniereProps> = ({ message}) => {
+const Baniere:React.FC<BaniereProps> = ({ message}) => {
     return (
-        <div className="homeBanniere">
-            <div className="u-center-text">
-                <h3 className="homeBanniere__heading ">
+        <div className={style.homeBanniere}>
+            <div className={style.centerDiv}>
+                <h3 className={style.__heading}>
                     {message}
                 </h3>
                 {/* {
@@ -24,4 +24,4 @@ const BaniereContact:React.FC<BaniereProps> = ({ message}) => {
     );
 };
 
-export default BaniereContact;
+export default Baniere;

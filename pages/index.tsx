@@ -1,6 +1,9 @@
 import Head from "next/head";
 import TitreSecondary from "../components/titre/Titre";
 import style from './homePage.module.scss';
+import Baniere from '../components/baniereDivider/Baniere';
+import React from "react";
+import Inspiration from "../components/partial/Inspiration/Inspiration";
 
 export default function Home() {
     return (
@@ -38,6 +41,8 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
+                    <Baniere message="Nos inspiration" />
+                    <Inspiration/>
                 </div>
             </main>
         </div>
