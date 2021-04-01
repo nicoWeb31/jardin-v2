@@ -1,14 +1,30 @@
 import React from "react";
 import TitreSecondary from "../../components/titre/Titre";
 import style from "./shopPage.module.scss";
+import Image from "next/image";
 
 const shop: React.FC = () => {
+
+    const imgwidth = 500;
+    const imgheight = 450;
+
     return (
         <>
             <main className={`container-page ${style.shopPage}`}>
                 <TitreSecondary>Le marché</TitreSecondary>
 
-                <img src='/images/logo.png' alt="logo" className={style.logoImg}/>
+                <img
+                    src="/images/logo.png"
+                    alt="logo"
+                    className={style.logoImg}
+                />
+                <Image
+                    src={`/images/logo.png`}
+                    alt={`logo`}
+                    width={340}
+                    height={160}
+                    className={style.logoImg}
+                />
 
                 <div className="modale">
                     <h4>
@@ -30,41 +46,68 @@ const shop: React.FC = () => {
                 <div className="modale">
                     <h4>Les Plants :</h4>
                     <div className={style.shopCard}>
-                        <p>
-                            La liste des plants en précommandes est
-                            téléchargeable
-                            <a
-                                href="/pdf/liste-plan-vente.pdf"
-                                download="pdf-vente-plants"
-                            >
-                                <span> ici</span>.
-                            </a>
-                        </p>
-                        <img src="/images/semis.jpg" alt="semis" />
+                        <div className={style.blockText}>
+                            <p>
+                                La liste des plants en précommandes est
+                                téléchargeable
+                                <a
+                                    href="/pdf/liste-plan-vente.pdf"
+                                    download="pdf-vente-plants"
+                                >
+                                    <span> ici</span>.
+                                </a>
+                            </p>
+                        </div>
+
+                        <div className={style.blockImage}>
+                            {/* <img src="/images/semis.jpg" alt="semis" /> */}
+                            <Image
+                                src="/images/semis.jpg"
+                                alt="semis"
+                                width={imgwidth}
+                                height={imgheight}
+                            />
+                        </div>
                     </div>
                 </div>
 
                 <div className="modale">
                     <h4>Les paniers :</h4>
                     <div className={style.shopCard}>
-                        <p>
-                            Désolé la saison 2021 des paniers est déjà complète
-                            ! Rdv début 2022 pour effectuer vos réservations (et
-                            promis nous augmenterons le nombre de nos paniers
-                            disponibles ! )
-                        </p>
-                        <img src="/images/panier.jpg" alt="panier" />
+                        <div className={style.blockText}>
+                            <p>
+                                Désolé la saison 2021 des paniers est déjà
+                                complète ! Rdv début 2022 pour effectuer vos
+                                réservations (et promis nous augmenterons le
+                                nombre de nos paniers disponibles ! )
+                            </p>
+                        </div>
+                        {/* <img src="/images/panier.jpg" alt="panier" /> */}
+                        <Image
+                            src="/images/panier.jpg"
+                            alt="panier"
+                            width={imgwidth}
+                            height={imgheight}
+                        />
                     </div>
                 </div>
 
                 <div className="modale">
                     <h4>Les surplus :</h4>
                     <div className={style.shopCard}>
-                        <p>
-                            En fonction des récoltes, retrouvez ici les produits
-                            disponibles chaque lundi.
-                        </p>
-                        <img src="images/surplus.jpg" alt="surplus" />
+                        <div className={style.blockText}>
+                            <p>
+                                En fonction des récoltes, retrouvez ici les
+                                produits disponibles chaque lundi.
+                            </p>
+                            {/* <img src="images/surplus.jpg" alt="surplus" /> */}
+                        </div>
+                        <Image
+                            src="/images/surplus.jpg"
+                            alt="surplus"
+                            width={imgwidth}
+                            height={imgheight}
+                        />
                     </div>
                 </div>
             </main>
