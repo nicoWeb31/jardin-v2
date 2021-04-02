@@ -5,22 +5,22 @@ const Inspiration = () => {
     return (
         <div className={style.inspiContent}>
             <div className={`modale ${style.permaculture}`}>
-
                 <h3>La permaculture</h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-                fugiat temporibus reiciendis assumenda, dolores voluptatibus
-                minus enim numquam eaque animi deserunt distinctio libero saepe
-                soluta aut sequi ab placeat vitae veritatis voluptatem at esse
-                quam hic. Vitae magni, ipsum quisquam dolorum, autem illo
-                recusandae doloremque officia voluptas ad veritatis cumque?
+                Le principe de base de la permaculture est de s'inspirer de la
+                nature pour les cultures : les espèces sont multiples,
+                indigènes, et peuvent interagir entre elles, bien sûr
+                insecticides et engrais sont proscrits, et les surfaces sont
+                optimisées, ainsi que l'utilisation de l'eau et du soleil.
             </div>
 
             <div className={`modale ${style.permaculture}`}>
                 <h3>Les Joualles</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorem obcaecati adipisci consequuntur harum eligendi, amet
-                quaerat! Perspiciatis ipsam laborum asperiores voluptatum quod
-                fugit eligendi nobis dolor, aperiam iusto, quia recusandae?
+                La joualle (« joala » en occitan) est un système ancestral de
+                culture écologique associant sur une même parcelle de la vigne
+                poussant sur des arbres fruitiers et plusieurs autres cultures
+                intercalaires réalisées entre les rangées d'arbres. Cette
+                méthode culturale a été pratiquée en plusieurs régions d'Europe,
+                et notamment dans le Sud-Ouest de la France.
             </div>
         </div>
     );
