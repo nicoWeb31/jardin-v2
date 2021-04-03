@@ -23,7 +23,7 @@ export default function Home() {
                 <TitreSecondary>Bienvenue </TitreSecondary>
 
                 <div className={style.contentPres}>
-                    <div className="modale asso">
+                    <div className="modale modalePhone asso">
                         <div className="presentation__text">
                             {/* <h3 className="heading-tertiary u-margin-bottom-small">
                                 Bienvenue !

@@ -124,22 +124,30 @@ body {
     transform: skewX(-4deg);
 }
 
+.modalePhone {
+    @include respond(phone) {
+        width: 95% !important;
+        margin: 2rem 2rem !important;
+        text-align: justify;
+        background-color: rgba($c-w, 0.5);
+        box-shadow: 0 3rem 6rem rgba($c-b, 0.3);
+        border-radius: 3px;
+        font-size: $default-font-size;
+        padding: 4rem !important;
+        transform: skewX(0deg);
+    }
+}
+
 //bg image logo
 
 .bgLogo {
-
-
     background-image: linear-gradient(
             96deg,
             rgba($c-p, 0.2) 0%,
             rgba($c-t, 0.3) 100%
         ),
-        url("../public/images/logo.png" );
+        url("../public/images/logo.png");
     background-repeat: no-repeat;
 
-
     background-size: 100%;
-
-
-
 }

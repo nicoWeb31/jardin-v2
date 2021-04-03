@@ -4,7 +4,7 @@ import style from "./inspiration.module.scss";
 const Inspiration = () => {
     return (
         <div className={style.inspiContent}>
-            <div className={`modale ${style.permaculture}`}>
+            <div className={`modale modalePhone ${style.permaculture}`}>
                 <h3>La permaculture</h3>
                 Le principe de base de la permaculture est de s'inspirer de la
                 nature pour les cultures : les espèces sont multiples,
@@ -13,7 +13,7 @@ const Inspiration = () => {
                 optimisées, ainsi que l'utilisation de l'eau et du soleil.
             </div>
 
-            <div className={`modale ${style.permaculture}`}>
+            <div className={`modale modalePhone ${style.permaculture}`}>
                 <h3>Les Joualles</h3>
                 La joualle (« joala » en occitan) est un système ancestral de
                 culture écologique associant sur une même parcelle de la vigne
