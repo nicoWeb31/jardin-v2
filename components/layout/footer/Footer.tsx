@@ -19,7 +19,7 @@ const Footer = () => {
                             </li>
                             <li className={style.footer__item}>
                                 <Link href="/about">
-                                    <a className={style.footer__link}>About</a>
+                                    <a className={style.footer__link}>À propos</a>
                                 </Link>
                             </li>
                             <li className={style.footer__item}>
@@ -29,7 +29,7 @@ const Footer = () => {
                             </li>
                             <li className={style.footer__item}>
                                 <Link href="/shop">
-                                    <a className={style.footer__link}>Shop</a>
+                                    <a className={style.footer__link}>Le marché</a>
                                 </Link>
                             </li>
                         </ul>
