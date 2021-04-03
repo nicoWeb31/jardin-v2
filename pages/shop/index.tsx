@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TitreSecondary from "../../components/titre/Titre";
 import style from "./shopPage.module.scss";
 import Image from "next/image";
 
 const shop: React.FC = () => {
 
-    const imgwidth = 500;
-    const imgheight = 450;
+    const [screenWidth,setScreenWidth] = useState<number>();
+
+    const imgwidth = screenWidth && screenWidth < 400 ? 500 : 500;
+    const imgheight = screenWidth && screenWidth < 400 ? 500 : 500;
+
+
+    useEffect(() => {
+        console.log(window.innerWidth);
+        setScreenWidth(window.innerWidth);
+    }, []);
 
     return (
         <>
@@ -18,15 +26,15 @@ const shop: React.FC = () => {
                     alt="logo"
                     className={style.logoImg}
                 />
-                <Image
+                {/* <Image
                     src={`/images/logo.png`}
                     alt={`logo`}
                     width={340}
                     height={160}
                     className={style.logoImg}
-                />
+                /> */}
 
-                <div className="modale">
+                <div className="modale modalePhone">
                     <h4>
                         Découvrez ici tous les produits que nous proposons à la
                         vente !{" "}
@@ -43,7 +51,7 @@ const shop: React.FC = () => {
                     </p>
                 </div>
 
-                <div className="modale">
+                <div className="modale modalePhone">
                     <h4>Les Plants :</h4>
                     <div className={style.shopCard}>
                         <div className={style.blockText}>
@@ -71,7 +79,7 @@ const shop: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="modale">
+                <div className="modale modalePhone">
                     <h4>Les paniers :</h4>
                     <div className={style.shopCard}>
                         <div className={style.blockText}>
@@ -92,7 +100,7 @@ const shop: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="modale">
+                <div className="modale modalePhone">
                     <h4>Les surplus :</h4>
                     <div className={style.shopCard}>
                         <div className={style.blockText}>

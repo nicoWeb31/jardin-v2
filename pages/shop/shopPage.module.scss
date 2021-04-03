@@ -1,22 +1,20 @@
 @import "../../styles/mixin";
 
-
-
-.shopPage{
-    img{
+.shopPage {
+    img {
         padding: 5rem;
         width: 50%;
         @include respond(phone) {
-            width: 30%;// <1200
+            width: 30%; // <1200
             padding: 2rem;
         }
     }
 
-    .blockText{
+    .blockText {
         width: 50%;
     }
 
-    .logoImg{
+    .logoImg {
         width: 100%;
         left: 50%;
         top: 120%;
@@ -29,12 +27,32 @@
         opacity: 0.1;
     }
 
-    .shopCard{
+    .shopCard {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        p{
+        p {
             padding: 0.5rem;
+        }
+
+        @include respond(phone) {
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto ;
+
+            p{
+                padding-bottom: 3rem ;
+            }
+            
+            .blockText{
+                
+                width: 100%;
+            }
+            .blockImage{
+                margin: 0 auto;
+            }
         }
     }
     h4 {
@@ -42,15 +60,13 @@
         padding-bottom: 2rem;
     }
 
-    a{
+    a {
         text-decoration: none;
     }
 
-    span{
-
+    span {
         font-weight: bold;
         color: black;
         font-size: 1.4 rem;
     }
-
 }
