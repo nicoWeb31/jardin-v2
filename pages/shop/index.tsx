@@ -8,7 +8,7 @@ const shop: React.FC = () => {
     const [screenWidth,setScreenWidth] = useState<number>();
 
     const imgwidth = screenWidth && screenWidth < 400 ? 500 : 500;
-    const imgheight = screenWidth && screenWidth < 400 ? 500 : 500;
+    const imgheight = screenWidth && screenWidth < 400 ? 400 : 500;
 
 
     useEffect(() => {

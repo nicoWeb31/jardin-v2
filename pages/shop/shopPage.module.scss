@@ -1,23 +1,23 @@
 @import "../../styles/mixin";
 
 .shopPage {
-    img {
-        padding: 5rem;
-        width: 50%;
-        @include respond(phone) {
-            width: 30%; // <1200
-            padding: 2rem;
-        }
-    }
+    // img {
+    //     padding: 5rem;
+    //     // width: 50%;
+    //     @include respond(phone) {
+    //         width: 30%; // <1200
+    //         padding: 2rem;
+    //     }
+    // }
 
     .blockText {
         width: 50%;
     }
 
     .logoImg {
-        width: 100%;
+        width: 80%;
         left: 50%;
-        top: 120%;
+        top: 60rem;
         transform: translate(-50%);
 
         margin: auto 0;
@@ -40,17 +40,16 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            margin: 0 auto ;
+            margin: 0 auto;
 
-            p{
-                padding-bottom: 3rem ;
+            p {
+                padding-bottom: 3rem;
             }
-            
-            .blockText{
-                
+
+            .blockText {
                 width: 100%;
             }
-            .blockImage{
+            .blockImage {
                 margin: 0 auto;
             }
         }

@@ -1,8 +1,7 @@
 @import "../../../styles/variable";
-
+@import "../../../styles/mixin";
 
 .header {
-
     border-bottom: 4px solid $c-t;
     z-index: 10;
     height: 75vh;
@@ -16,7 +15,7 @@
     background-size: cover;
     background-position: top;
 
-    background-color:$c-c;
+    background-color: $c-c;
 
     clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
     position: relative;
@@ -29,10 +28,18 @@
         position: absolute;
         top: 5rem;
         left: 5rem;
+
+        @include respond(phone) {
+            top: 2rem;
+            left: 2rem;
+        }
     }
 
-    .logoImg{
+    .logoImg {
         width: 40%;
+        @include respond(phone) {
+            width: 30%;
+        }
     }
 
     .headingPrimary {
@@ -70,8 +77,6 @@
         }
     }
 }
-
-
 
 .textBox {
     position: absolute;
