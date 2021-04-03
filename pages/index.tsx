@@ -41,7 +41,7 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <Baniere message="Nos inspiration" />
+                    <Baniere message="Nos inspirations" />
                     <Inspiration/>
                 </div>
             </main>

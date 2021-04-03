@@ -16,7 +16,7 @@ const about: React.FC = () => {
                     alt="logo"
                     className={style.logoImg}
                 />
-                <div className="modale">
+                <div className="modale modalePhone">
                     <div className="presentation__text">
                         {/* <h3 className="heading-tertiary u-margin-bottom-small">
                                 Bienvenue !
@@ -61,7 +61,7 @@ const about: React.FC = () => {
                         <p>A bientôt !</p>
                     </div>
                 </div>
-                <div className="modale">
+                <div className="modale modalePhone">
                     <CardList cardList={permas} />
                 </div>
             </main>

@@ -14,7 +14,7 @@ const Inspiration = () => {
             </div>
 
             <div className={`modale modalePhone ${style.permaculture}`}>
-                <h3>Les Joualles</h3>
+                <h3>Les Jouales</h3>
                 La joualle (« joala » en occitan) est un système ancestral de
                 culture écologique associant sur une même parcelle de la vigne
                 poussant sur des arbres fruitiers et plusieurs autres cultures
