@@ -9,7 +9,7 @@ const contact: React.FC = () => {
             <img src='/images/logo.png' alt="logo" className={style.logoImg}/>
             <TitreSecondary>Contact</TitreSecondary>
 
-            <div className="modale">
+            <div className="modale modalePhone">
                 <p>
                     - Vous pouvez nous contacter à l'adresse mail suivante :
                     jardindelajoualle@gmail.com
